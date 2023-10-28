@@ -1,0 +1,39 @@
+[
+  
+    {
+      "brand": "TESLA",
+      "image": "https://images.unsplash.com/photo-1601158935942-52255782d322?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXVkaSUyMGNhciUyMGxvZ298ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "brand": "JEEP",
+      "image": "https://images.unsplash.com/photo-1657356856332-0ed5ebad2475?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SkVFUCUyMGNhciUyMGxvZ298ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "brand": "MAZDA",
+      "image": "https://images.unsplash.com/photo-1631856507174-5229e66c6344?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGNhciUyMGxvZ298ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "brand": "LAMBORGHINI",
+      "image": "https://images.unsplash.com/photo-1609775494035-9a86b9be4a4f?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "brand": "MERCEDES-BENZ",
+      "image": "https://images.unsplash.com/photo-1625074692991-b57f8ff90df6?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "brand": "JAGUAR",
+      "image": "https://images.unsplash.com/photo-1577984685487-26051acf7959?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "brand": "BMW",
+      "image": "https://images.unsplash.com/photo-1555504905-814a5c54a6b9?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGNhciUyMGxvZ298ZW58MHx8MHx8fDA%3D"
+    },
+  
+
+    {
+      "brand": "FERRARI",
+      "image": "https://images.unsplash.com/photo-1689305651192-dce44d6179a7?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhciUyMGxvZ28lMjBGRVJSQVJJfGVufDB8fDB8fHww"
+    }
+  
+  ]
+  
