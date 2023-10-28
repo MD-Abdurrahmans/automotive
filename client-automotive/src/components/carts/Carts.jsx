@@ -33,7 +33,7 @@ const Carts = ({cart,carts,setCarts}) => {
              
                 // console.log(_id);
        
-                fetch(`http://localhost:5000/cart/${_id}`,{
+                fetch(`https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/cart/${_id}`,{
                     
                 method: "DELETE",
        

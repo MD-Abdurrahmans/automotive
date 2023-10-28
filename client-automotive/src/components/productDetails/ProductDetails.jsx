@@ -31,7 +31,7 @@ const hanldeAddToCart =(e)=>{
     console.log('done doen',userCart)
 
 
-     fetch('http://localhost:5000/cart',{
+     fetch('https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/cart',{
 
           method:'POST',
           headers:{

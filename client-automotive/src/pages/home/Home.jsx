@@ -60,19 +60,19 @@ const Home = () => {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper  md:h-[100vh]   object-center  "
+        className="mySwiper  md:h-[100vh] overflow-x-hidden  object-center  "
       >
         <SwiperSlide >
 
    <div
-    className='bgHome1    '>
+    className='bgHome1   flex flex-col md:justify-between md:items-center  text-center   '>
    {/* <img src="cool-background.svg" className='w-full  relative' alt="" /> */}
-             <div className='flex flex-col md:flex-row    md:justify-between min-h-screen  md:items-center container mx-auto  px-4 md:px-0  '>
+             <div className='flex flex-col-reverse md:flex-row justify-center   md:justify-between min-h-screen  md:items-center container mx-auto px-4 md:px-0  '>
 
 
-             <div  data-aos="fade-right" className='md:space-y-4'>
-            <h1 className='text-2xl md:text-4xl '>BUY YOUR CAR<br/> FILL <span className='text-green-800 font-bold'>YOUR DREAM</span> </h1>
-             <h1 className='md:text-right underline my-4 text-[20px]  md:text-2xl text-green-800  md:font-bold'>LAMBORGHINI</h1>
+             <div  data-aos="fade-right" className='md:space-y-4  flex flex-col justify-center items-center '>
+            <h1 className='text-4xl '>BUY YOUR CAR<br/> FILL <span className='text-green-800 font-bold'>YOUR DREAM</span> </h1>
+             <h1 className='md:text-right underline  text-[20px]  md:text-2xl text-green-800  md:font-bold my-2 '>LAMBORGHINI</h1>
              <button className='btn bg-green-800 text-white btn-sm'>Explore</button>
          </div>
 
@@ -87,14 +87,14 @@ const Home = () => {
         <SwiperSlide>
 
         <div
-    className='bgHome2'>
+    className='bgHome2 flex flex-col md:justify-between md:items-center  text-center  '>
    {/* <img src="cool-background.svg" className='w-full  relative' alt="" /> */}
              <div className='flex flex-col-reverse md:flex-row justify-center   md:justify-between min-h-screen  md:items-center container mx-auto px-4 md:px-0  '>
 
 
-             <div data-aos="fade-right" className='md:space-y-4'>
-            <h1 className='text-2xl md:text-4xl '>Discover the Road Less <br/> Traveled with  <span className='text-orange-600 font-bold'>Our<br/> Latest Models</span> </h1>
-             <h1 className='text-left underline text-[20px]  md:text-2xl text-orange-600  md:font-bold'>JEEP</h1>
+             <div data-aos="fade-right" className='md:space-y-4 flex flex-col justify-center items-center '>
+            <h1 className='text-4xl '>Discover the Road Less <br/> Traveled with  <span className='text-orange-600 font-bold'>Our<br/> Latest Models</span> </h1>
+             <h1 className='text-left underline text-[20px]  md:text-2xl text-orange-600  md:font-bold my-2'>JEEP</h1>
              <button className='btn bg-orange-600 text-white btn-sm'>Explore</button>
          </div>
 
@@ -108,14 +108,14 @@ const Home = () => {
 
      
         <div
-    className='bgHome3'>
+    className='bgHome3 flex flex-col md:justify-between md:items-center  text-center '>
    {/* <img src="cool-background.svg" className='w-full  relative' alt="" /> */}
-             <div className='flex flex-col-reverse md:flex-row justify-center   md:justify-between min-h-screen  md:items-center container mx-auto  px-4 md:px-0  '>
+             <div className='flex flex-col-reverse md:flex-row justify-center   md:justify-between min-h-screen  md:items-center container mx-auto px-4 md:px-0  '>
 
 
-             <div className='space-y-4 '>
-            <h1 className='text-2xl md:text-4xl space-x-5 '>Quality &  <span className='text-red-600'> Performance </span>  <span className='text-red-600 font-bold'><br/>  All in One Place </span> </h1>
-             <h1 className='text-left underline text-[20px]  md:text-2xl text-red-600  md:font-bold'>FERRARI</h1>
+             <div className='md:space-y-4 flex flex-col justify-center items-center '>
+            <h1 className='text-4xl space-x-5 '>Quality &  <span className='text-red-600'> Performance </span>  <span className='text-red-600 font-bold'><br/>  All in One Place </span> </h1>
+             <h1 className='text-left underline text-[20px]  md:text-2xl text-red-600  md:font-bold my-2'>FERRARI</h1>
              <button className='btn bg-red-600 text-white btn-sm'>Explore</button>
          </div>
 
@@ -131,16 +131,16 @@ const Home = () => {
 
      
         <div
-    className='bgHome4'>
+    className='bgHome4 flex flex-col md:justify-between md:items-center  text-center'>
    {/* <img src="cool-background.svg" className='w-full  relative' alt="" /> */}
-             <div className='flex flex-col-reverse md:flex-row justify-center   md:justify-between min-h-screen  md:items-center container mx-auto   px-4 md:px-0 '>
+             <div className='flex flex-col-reverse md:flex-row justify-center   md:justify-between min-h-screen  md:items-center container mx-auto px-4 md:px-0 '>
 
        
       
 
-             <div className='space-y-4 '>
-            <h1 className='text-2xl md:text-4xl space-x-5 '>Quality &  <span className='text-red-600'> Performance </span>  <span className='text-sky-600 font-bold'><br/>  All in One Place </span> </h1>
-             <h1 className='text-left underline text-[20px]  md:text-2xl text-sky-600  md:font-bold'>MERCEDES-BENZ</h1>
+             <div className='md:space-y-4 flex flex-col justify-center items-center '>
+            <h1 className='text-4xl space-x-5 '>Quality &  <span className='text-red-600'> Performance </span>  <span className='text-sky-600 font-bold'><br/>  All in One Place </span> </h1>
+             <h1 className='text-left underline text-[20px]  md:text-2xl text-sky-600  md:font-bold my-2'>MERCEDES-BENZ</h1>
              <button className='btn bg-sky-600 text-white btn-sm'>Explore</button>
          </div>
 

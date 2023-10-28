@@ -40,7 +40,7 @@ const  brandUpdate = useLoaderData();
                // api end point
        
              
-               fetch(`http://localhost:5000/cart/${_id}`,{
+               fetch(`https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/cart/${_id}`,{
        
                 method:'PUT',
                 headers:{

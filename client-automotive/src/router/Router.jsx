@@ -38,25 +38,25 @@ const router = createBrowserRouter([
             {
                 path:'/brandProducts/:id',
                 element:<PrivateRoute><BrandProducts></BrandProducts></PrivateRoute>,
-                loader:()=>fetch('http://localhost:5000/products')
+                loader:()=>fetch('https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/products')
                  
             },
             {
                 path:'/productDetails/:id',
                 element:<PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
-                loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`)
+                loader:({params})=>fetch(`https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/products/${params.id}`)
                  
             },
             {
                 path:'/update/:id',
                 element:<PrivateRoute> <Update></Update> </PrivateRoute>,
-                loader:({params})=>fetch(`http://localhost:5000/cart/${params.id}`)
+                loader:({params})=>fetch(`https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/cart/${params.id}`)
                  
             },
             {
                 path:'/myCarts',
                 element:<PrivateRoute> <MyCart></MyCart> </PrivateRoute>,
-                loader:()=>fetch(`http://localhost:5000/cart`)
+                loader:()=>fetch(`https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/cart`)
                  
             },
 

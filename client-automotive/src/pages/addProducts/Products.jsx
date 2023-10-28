@@ -27,7 +27,7 @@ const Products = () => {
         // api end point
 
       
-        fetch('http://localhost:5000/products',{
+        fetch('https://server-automotive-6lj38stzh-rajs-projects-d77d3858.vercel.app/products',{
 
          method:'POST',
          headers:{
