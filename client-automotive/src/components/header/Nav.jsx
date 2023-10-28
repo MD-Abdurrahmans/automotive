@@ -92,7 +92,7 @@ const toggle = (e)=>{
 
 
     return (
-        <div className="bg-yellow-300   ">
+        <div className="bg-red-600 text-white  ">
             <div className=" navbar  container  mx-auto   z-40">
   <div className="navbar-start z-40   ">
     <div className="dropdown">
