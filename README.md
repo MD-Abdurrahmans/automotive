@@ -23,6 +23,14 @@ we are create a  beautiful home page where  we provide 7 different beautiful sec
 
 
 
+### Tecnology :
+
+#### fontEnd technology & freamwork
+- react ,vite,tailwind,daisyui,
+
+#### backend technology & freamwork
+
+- node js ,express js ,mongoDB 
 
 - [Live link](https://automotive-56db5.web.app/) https://automotive-56db5.web.app/
 
